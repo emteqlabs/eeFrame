@@ -3,6 +3,11 @@
 
 import PackageDescription
 
+
+//let version = "1.0.0"
+//let moduleName = "eeFrame"
+
+
 let package = Package(
     name: "eeFrame",
     products: [
@@ -15,14 +20,14 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
-    targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "eeFrame",
-            dependencies: []),
-        .testTarget(
-            name: "eeFrameTests",
-            dependencies: ["eeFrame"]),
-    ]
+	targets: [
+		.binaryTarget(
+			name: "eeFrame",
+//			path: "/Users/andycleal/Documents/GitHub/expEng/Sources/expEng.xcframework.zip"		// local
+//			url: "https://github.com/emteqlabs/\(moduleName)/releases/download/\(version)/\(moduleName).xcframework.zip",
+//			url: "https://github.com/emteqlabs/\(moduleName)/blob/main/Sources/\(moduleName).xcframework.zip",
+			url: "https://github.com/emteqlabs/expEng/blob/main/Sources/eeFrame/eeFrame.xcframework.zip",
+			checksum: "f8a0fb30f2baa39b9910ddb7fb094e35d7c9149322470d1c5e3b95b4115e13e0"
+		)
+	]
 )
