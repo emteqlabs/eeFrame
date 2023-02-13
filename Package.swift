@@ -27,7 +27,7 @@ let package = Package(
 //			url: "https://github.com/emteqlabs/\(moduleName)/releases/download/\(version)/\(moduleName).xcframework.zip",
 //			url: "https://github.com/emteqlabs/\(moduleName)/blob/main/Sources/\(moduleName).xcframework.zip",
 			url: "https://github.com/emteqlabs/eeFrame/blob/main/eeFrame.xcframework.zip",
-			checksum: "bfaf6710460986083f91523a57744497e197272629187d0c1422b9df05941f3f"
+			checksum: "5f7e4a8d2916219a2e06b9a71043ec46cde34a3ee8d0ea1e83bba27c6851ae0c"
 		)
 	]
 )
